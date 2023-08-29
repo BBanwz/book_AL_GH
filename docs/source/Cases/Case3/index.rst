@@ -5,6 +5,7 @@
 
 .. toctree::
    :maxdepth: 3
-   
+
+   Датчик влажности почвы + PolysLab.rst
   
 
