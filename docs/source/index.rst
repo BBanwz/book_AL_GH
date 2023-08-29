@@ -20,3 +20,9 @@ Contents
 
    usage
    api
+   Cases/Case1/index.rst
+   Cases/Case2/index.rst
+   Cases/Case3/index.rst
+
+
+   
