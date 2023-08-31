@@ -20,8 +20,6 @@ Contents
    :maxdepth: 5
    :numbered:
 
-   usage
-   api
    Обзор общей конструкции и способы взаимодействия/index.rst
    Программирование платы/index.rst
    Программирование веб страницы на html/index.rst
