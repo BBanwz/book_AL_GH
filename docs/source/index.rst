@@ -22,12 +22,12 @@ Contents
 
    usage
    api
-   Обзор общей конструкции и способы взаимодействия\index.rst
-   Программирование платы\index.rst
-   Программирование веб страницы на html\index.rst
-   Использование протокола MODBUS TCP\index.rst
-   Настройка Node-red\index.rst
-   Программирование PolusLab\index.rst
+   Обзор общей конструкции и способы взаимодействия/index.rst
+   Программирование платы/index.rst
+   Программирование веб страницы на html/index.rst
+   Использование протокола MODBUS TCP/index.rst
+   Настройка Node-red/index.rst
+   Программирование PolusLab/index.rst
 
 
 
