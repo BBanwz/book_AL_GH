@@ -21,7 +21,6 @@
 
 .. |pic2| image:: images/6.png
    :width: 45%
-   :scale: 50%
 
 |pic1| |pic2|
 
