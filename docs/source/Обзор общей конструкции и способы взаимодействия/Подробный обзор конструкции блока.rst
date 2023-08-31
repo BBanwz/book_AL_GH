@@ -23,7 +23,7 @@
    :width: 45%
 
 .. |pic2| image:: images/6.png
-   :width: 35%
+   :width: 33%
 
 |pic1| |pic2|
 
