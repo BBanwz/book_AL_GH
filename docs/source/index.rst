@@ -20,7 +20,7 @@ Contents
    :maxdepth: 5
    :numbered:
 
-   Обзор общей конструкции и способы взаимодействия/index.rst
+   1/index.rst
    Программирование платы/index.rst
    Программирование веб страницы на html/index.rst
    Использование протокола MODBUS TCP/index.rst
