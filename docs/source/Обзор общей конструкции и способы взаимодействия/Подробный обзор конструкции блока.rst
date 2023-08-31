@@ -34,7 +34,7 @@
 Расположение значимых элементов изображено на схеме 
 
 .. figure:: images/13.png
-       :width: 50 %
+       :width: 30 %
        :align: center
        :alt: jsar
 
