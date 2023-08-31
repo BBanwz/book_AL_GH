@@ -198,31 +198,6 @@
 
 |pic3| |pic4|
 
-Поскольку данный модуль имеет униикальный протокол обмена данными, подобный 1-Wire, для работы с ним рекомендуется использовать подходящую библиотеку. Таких библиотек существует достаточно много, но в данном примере воспользуемся библиотекой ``iarduino_DHT``
-::
-  #include <iarduino_DHT.h> // Подключаем библиотеку для работы с датчиком DHT
-  iarduino_DHT sensor(5);   // Объявляем объект, указывая номер вывода, к которому подключён модуль
-  void setup(){
-    Serial.begin(115200);     // Инициируем передачу данных в монитор последовательного порта, на скорости 115200 бод
-    delay(1000);            // Приостанавливаем выполнение скетча на 1 секунду, для перехода датчика в активное состояние
-  }
-  void loop(){                 Serial.print  ("CEHCOP B KOMHATE: ");
-    switch(sensor.read()){  // Читаем показания датчика
-      case DHT_OK:             Serial.println((String) sensor.hum + "% - " + sensor.tem + "*C"); break;
-      case DHT_ERROR_CHECKSUM: Serial.println("HE PABEHCTBO KC");                                break;
-      case DHT_ERROR_DATA:     Serial.println("OTBET HE COOTBETCTB. CEHCOPAM 'DHT'");            break;
-      case DHT_ERROR_NO_REPLY: Serial.println("HET OTBETA");                                     break;
-      default:                 Serial.println("ERROR");                                          break;
-    } delay(2000);          // Приостанавливаем выполнение скетча на 2 секунд, между выводами показаний
-  }
-В результате, загрузив данный код в контроллер стандартным способом и открыв монитор порта, можно увидеть следующие данные:
-
-.. figure:: images/9.png
-       :scale: 100 %
-       :align: center
-       :alt: данные 
-
-
 LED-дисплей
 -----------
 
