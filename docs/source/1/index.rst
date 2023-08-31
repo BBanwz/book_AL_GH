@@ -1,0 +1,6 @@
+ТЕКСТ
+
+.. toctree::
+   :maxdepth: 3
+   1     
+   2
