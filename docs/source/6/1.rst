@@ -186,7 +186,7 @@
    :width: 45% 
 
 .. |pic4| image:: images/8.png
-   :width: 50%
+   :width: 55%
 
 
 |pic3| |pic4|
