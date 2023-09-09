@@ -1,4 +1,3 @@
-ТЕКСТ
 
 .. toctree::
    :maxdepth: 3
