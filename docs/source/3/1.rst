@@ -97,7 +97,18 @@
 
   ::
 
-    String processor(const String& var){//Serial.println(var);if(var == "BUTTONPLACEHOLDER"){String buttons ="";//String outputStateValue = outputState();i++;//buttons+= "<h4>Включить/выключить свет: <span id=\"outputState\"></span></h4><label class=\"switch\"><input type=\"checkbox\" onchange=\"toggleCheckbox(this)\" id=\"output\" " + outputStateValue + "><span class=\"slider\"></span></label>" + "<br><br>Температура: "+getTemp()+ "<br><br>Влажность: "+getHum();//return buttons;return String();}return String();}
+    String processor(const String& var){
+      //Serial.println(var);
+      if(var == "BUTTONPLACEHOLDER"){
+        String buttons ="";
+        //String outputStateValue = outputState();
+        i++;
+        //buttons+= "<h4>Включить/выключить свет: <span id=\"outputState\"></span></h4><label class=\"switch\"><input type=\"checkbox\" onchange=\"toggleCheckbox(this)\" id=\"output\" " + outputStateValue + "><span class=\"slider\"></span></label>" + "<br><br>Температура: "+ getTemp() + "<br><br>Влажность: " +getHum();
+        //return buttons;
+        return String();
+      }
+    return String();
+    }
 
 Напишем функцию для считывания и вывода данных о влажности с датчика влажности на веб-страницу.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -242,7 +253,7 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: images/5.png
-       :width: 40%
+       :width: 60%
        :align: center
        :alt: Результат работы программы.
 
