@@ -19,7 +19,7 @@
 --------------------------
 
 ::
-    
+
   #include <JsAr.h>	// Подключение библиотеки для работы с платой ESP. 
   #include <iarduino_I2C_Relay.h>	// Подключение библиотеки для работы с I2C силовым ключом.
 
@@ -48,7 +48,9 @@
           break; 
         default:
           fets1.digitalWrite(1, LOW); // Если пришел символ, который мы не ожидаем, выключаем все.
-          fets1.digitalWrite(2, LOW); fets1.digitalWrite(3, LOW); break;
+          fets1.digitalWrite(2, LOW); 
+          fets1.digitalWrite(3, LOW); 
+          break;
       } 
     }
   }
