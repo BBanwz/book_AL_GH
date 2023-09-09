@@ -21,11 +21,11 @@ Contents
    :numbered:
 
    1/index.rst
-   Программирование платы/index.rst
-   Программирование веб страницы на html/index.rst
-   Использование протокола MODBUS TCP/index.rst
-   Настройка Node-red/index.rst
-   Программирование PolusLab/index.rst
+   2/index.rst
+   3/index.rst
+   4/index.rst
+   5/index.rst
+   6/index.rst
 
 
 
