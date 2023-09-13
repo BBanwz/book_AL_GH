@@ -18,7 +18,6 @@ Contents
 
 .. toctree::
    :maxdepth: 5
-   :numbered:
 
    1/index.rst
    2/index.rst
