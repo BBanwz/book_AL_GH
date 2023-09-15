@@ -208,7 +208,7 @@
 
 - Подключение: двухпроводное, длина кабеля - 40 см
 
-.. figure:: images/12.png
+.. figure:: images/13.png
        :width: 60%
        :align: center
        :alt: Поплавок
