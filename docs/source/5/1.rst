@@ -78,6 +78,12 @@
 
 3. В меню «Manage palette» выберите вкладку «Install».
 
+.. figure:: images/10.jpg
+       :width: 60%
+       :align: center
+       :alt: Node-RED
+
+
 4. В поле поиска введите следующие пакетов узлов Modbus и нажмите кнопку «Install» рядом с ним:
 ::
   node-red-contrib-modbus
