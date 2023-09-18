@@ -21,7 +21,7 @@ Contents
    :numbered:
 
    1construction/index.rst
-   2/index.rst
+   2MBCode/index.rst
    3/index.rst
    4/index.rst
    5/index.rst
