@@ -3,7 +3,7 @@ PolusLab
 
 В этой главе вы узнаете о PolusLab
 
-..toctree::
+.. toctree::
    :maxdepth: 3
 
    1polus
