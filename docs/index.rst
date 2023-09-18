@@ -25,7 +25,7 @@ Contents
    3/index.rst
    4MODEBUS/index.rst
    5NodeRed/index.rst
-   6/index.rst
+   6PolusLab/index.rst
 
 
 
