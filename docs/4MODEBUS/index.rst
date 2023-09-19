@@ -1,4 +1,4 @@
-MODEBUS
+MODBUS
 ========
 
 В этой главе вы узнаете всё о MODEBUS
