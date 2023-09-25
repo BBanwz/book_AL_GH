@@ -1,17 +1,14 @@
-Welcome to Lumache's documentation!
-===================================
+Книга по взаимодеюствию с обучающим набором AgroLab Green House с модулем Poluslab
+==================================================================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+В представленной книге описано использование МК от Applied Robotics на базе компьютера NanoPI. Для правильного и последовательного понимания использования микроконтроллера книга разделена на несколько глав:
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
-.. note::
-
-   This project is under active development.
+* В первой главе вы узнаете, из чего состоит конструкция AgroLab GH.
+* Во второй главе вы научитесь программировать плату управления.
+* В третьей главе **NanoPi** вы научитесь правильно использовать контроллер.
+* В четвертой главе вы научитесь использовать ModeBus для связи с платой.
+* В пятой главе вы научитесь выводить AgroLab GH в сеть, для доступа из любой точки мира.
+* В шестой главе вы обучитесь основам использования дополнения PolusLab.
 
 Contents
 --------
