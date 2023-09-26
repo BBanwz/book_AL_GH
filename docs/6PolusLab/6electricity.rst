@@ -36,3 +36,9 @@
 
 - ``Выход:`` датчик имеет аналоговый или цифровой выход, что обеспечивает бесшовную интеграцию с различными системами мониторинга.
 
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/XJG_CQ0YMDA?si=Y_jKxWTbNegYotk4" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
+
