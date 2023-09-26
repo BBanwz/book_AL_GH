@@ -63,35 +63,35 @@
 
 
     void setup() {
-    JsAr.begin();
-    DxlMaster.begin(dynamixel_baudrate);
-    DxlMaster.setTimeOut(10);
-    Serial.begin(serial_baudrate);
-    device.protocolVersion(2);
+        JsAr.begin();
+        DxlMaster.begin(dynamixel_baudrate);
+        DxlMaster.setTimeOut(10);
+        Serial.begin(serial_baudrate);
+        device.protocolVersion(2);
 
-    status = device.ping(); 
-    if (status == DYN_STATUS_OK)
-        Serial.println("Ping status: Ok!");
-    else
-        Serial.println("Ping status: Err!");
+        status = device.ping(); 
+        if (status == DYN_STATUS_OK)
+            Serial.println("Ping status: Ok!");
+        else
+            Serial.println("Ping status: Err!");
 
-    uint16_t sensors_en_buf[10] = {0};
-    device.write(LFS_CTRL_MEASURE_START_STOP_REG, 0);
-    delay(500);
-    device.write(LFS_SENSOR_EN_REG, 20, (uint8_t*) sensors_en_buf);
-    delay(500);
-    sensors_en_buf[0] = LFS_TEMPERATURE_ID;
-    device.write(LFS_SENSOR_EN_REG, 20, (uint8_t*) sensors_en_buf);
-    delay(500);
-    device.write(LFS_CTRL_MEASURE_START_STOP_REG, 1);
-    delay(500);
+        uint16_t sensors_en_buf[10] = {0};
+        device.write(LFS_CTRL_MEASURE_START_STOP_REG, 0);
+        delay(500);
+        device.write(LFS_SENSOR_EN_REG, 20, (uint8_t*) sensors_en_buf);
+        delay(500);
+        sensors_en_buf[0] = LFS_TEMPERATURE_ID;
+        device.write(LFS_SENSOR_EN_REG, 20, (uint8_t*) sensors_en_buf);
+        delay(500);
+        device.write(LFS_CTRL_MEASURE_START_STOP_REG, 1);
+        delay(500);
     }
 
     void loop() {
-    uint16_t data = 0;
-    device.read(LFS_DATA_REG, data); 
-    Serial.println("temperature = " + String(data/10));
-    delay(3000);
+        uint16_t data = 0;
+        device.read(LFS_DATA_REG, data); 
+        Serial.println("temperature = " + String(data/10));
+        delay(3000);
     }
 
 
