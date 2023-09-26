@@ -41,3 +41,9 @@
 
 Принцип работы газоанализатора инфракрасного типа – изменение длины волны излучения в инфракрасной части спектра. Действие основано на спектре поглощения газами света. ИК излучение работает как раз на поглощение молекул монооксида углерода
 
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/HRA5FIL9obU?si=XWj9QEoaVW41lW6N" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
+
