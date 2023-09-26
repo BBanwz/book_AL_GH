@@ -63,3 +63,9 @@ Agrolab GH представляет из себя прямоугольный к�
 
 Светодиодная лента выполняет сигнализационную функцию для сообщения ответственному лицу о случившейся неполадке. 
 
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/KzrJRAyhtgY?si=qTvyGdZDaZTtV2E9" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
+
