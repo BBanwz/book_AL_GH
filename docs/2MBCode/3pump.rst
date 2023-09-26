@@ -55,3 +55,8 @@
     pump.write(28, 255);	// Непосредственное открытие ключа записью значения 255 в нужный регистр.
   }
 
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/1aEX3SMDy4M?si=RQ6X6XDD_H2qHvlT" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
