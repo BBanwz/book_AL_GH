@@ -15,7 +15,7 @@
   #include <DxlMaster.h>
   #include <Wire.h>
   #include <iarduino_I2C_DSL.h>
-  I2C_DSL dsl;                             
+  iarduino_I2C_DSL dsl;                             
                                                     
   void setup(){
       JsAr.begin();
