@@ -18,6 +18,12 @@ LCD (``жидкокристаллический дисплей``) - это те�
        :alt: дисплей
 
 
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/inY9uT0dr4A?si=kmTX0vw-D8ZBxXXr" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
+
 Описание
 ~~~~~~~~
 
@@ -406,5 +412,6 @@ LCD (``жидкокристаллический дисплей``) - это те�
 .. raw:: html
 
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="https://www.youtube.com/embed/inY9uT0dr4A?si=kmTX0vw-D8ZBxXXr" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+        <iframe src="https://www.youtube.com/embed/IMsN3FjxQXI?si=zuXeR85Twfot6H4E" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
+
