@@ -29,3 +29,40 @@
 
 По этому многоканальные системы сбора данных с датчиков в Agrolab GH играют ключевую роль в создании оптимальных условий для роста растений и эффективном управлении агрокультурой. Они обеспечивают точность, надежность и возможность удаленного управления, что делает их важным инструментом для современного сельского хозяйства и оранжерейного бизнеса.
 
+::
+
+  #include <JsAr.h>
+  #include <DxlMaster.h>
+  
+  DynamixelDevice deviceTemp(0x16);
+  
+  uint16_t data_humidity_int = 0;
+  uint16_t data_temp_int = 0;
+  
+  void setup() {
+    JsAr.begin();
+    DxlMaster.begin(57600);
+    deviceTemp.init();
+    pinMode(A0, INPUT);
+    Serial.begin(115200);
+  }
+  
+  void loop() {
+    deviceTemp.ping();
+    deviceTemp.read((uint8_t)28, data_temp_int);
+    Serial.println("Temp:" + String(data_temp_int));
+  
+    deviceTemp.ping();
+    deviceTemp.read((uint8_t)28, data_humidity_int);
+    Serial.println("Temp:" + String(data_humidity_int));
+  
+    if (analogRead(A0) > 4000)
+    {
+      Serial.println("Add Water");
+    }else
+    {
+      Serial.println("Enough Water");
+    }
+    delay(500);
+  }
+
