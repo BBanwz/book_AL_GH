@@ -252,14 +252,6 @@ LCD (``жидкокристаллический дисплей``) - это те�
     </div>
 
 
-Позиционирование блока на Agrolab GH
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. figure:: images/12.png
-       :width: 60%
-       :align: center
-       :alt: Позиционирование блока на Agrolab GH
-
 .. raw:: html
 
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
