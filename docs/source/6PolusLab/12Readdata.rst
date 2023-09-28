@@ -1,6 +1,12 @@
 Чтение данных с датчиков PolusLab
 =================================
 
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/U_ttxNbKHyg?si=8T0grcM0K2Ejsa6R" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
+
 Этот код предназначен для Arduino и используется для управления и получения данных с датчиков PolusLab. Вот его функции, подробно описанные по пунктам:
 
 1. Подключение библиотек: Включение библиотек DxlMaster2 (Dynamixel) для управления Dynamixel устройствами и JsAr для работы с Ардуино.
